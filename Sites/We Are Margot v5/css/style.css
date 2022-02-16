@@ -1,0 +1,90 @@
+html,
+body {
+    overflow-x: hidden;
+    display: block;
+    height: 100%;
+    font-family: 'Averta Standard', Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    background-color: #fff;
+    overflow-x: hidden !important;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: #3A357B;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header, main {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+a, p, li {
+    color:  #fff;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a {
+    color: #ADADAD;
+    text-decoration: underline;
+    text-underline-offset: .1em;
+}
+
+a:hover {
+    text-decoration-thickness: max(3px);
+}
+
+a:focus {
+    background-color: #FFB81C;
+    color: #000;
+    outline: none;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
+
+li {
+    padding-bottom: .5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+    padding-bottom: 2em;
+}
+
+.title a {
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.back-link {
+    padding-bottom: 1em;
+}
+
+img {
+    padding-bottom: 2em;
+}
